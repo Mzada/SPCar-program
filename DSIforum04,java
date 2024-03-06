@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class DSIForum04 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner (System.in);
+
+        System.out.println("Escolha seu valor A: ");
+
+        int valorA = sc.nextInt();
+
+        System.out.println("Escolha seu valor B: ");
+
+        int valorB = sc.nextInt();      
+
+        int valorcompleto = valorA * valorB;
+
+        System.out.println("Seu valor total é: " + valorcompleto);
+
+        sc.close();
+
+    }
+
+}
